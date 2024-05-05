@@ -87,7 +87,7 @@ export class BarChartComponent implements OnInit {
   }
 
   //Método que crea la estructura inicial del gráfico y crea el canvas automático
-  private inicializarChart() {
+  public inicializarChart() {
     // Destruir el gráfico existente si existe
     //this.destroyChart();
   
